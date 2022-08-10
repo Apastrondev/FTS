@@ -1,0 +1,435 @@
+﻿@model FileTrackingSystem.ViewModel.WebAdmin.WebAdminSubjectMasterViewModel
+
+    <!-- Page Loader -->
+    <!--
+<div class="page-loader-wrapper">
+    <div class="loader">
+    </div>
+</div>
+-->
+
+    <div id="main_content">
+       
+        
+
+
+
+        <!-- Start Main leftbar navigation -->
+        <div id="left-sidebar" class="sidebar">
+            <h5 class="brand-name">फाइल ट्रॅकिंग सिस्टम<a href="javascript:void(0)" class="menu_option float-right">
+                    <!--            <i class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>-->
+                </a></h5>
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu-uni">कार्यालय</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu-admin">प्रशासक</a></li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+                            <li class="active"><a href="index.html"><i class="fa fa-dashboard"></i><span>डॅशबोर्ड</span></a></li>
+                            <li><a href="index.html"><i class="fa fa-search"></i><span>फाइल ट्रॅकिंग</span></a></li>
+                            <li class="mm-active">
+
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="true">
+                                    <i class="fa fa-align-justify"></i>
+                                    <span>कार्यालय</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+                                    <!--                                    <li><a href="javascript: void(0);" aria-expanded="false">Level 1.1</a></li>-->
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">मुंबई प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">मुंबई शहर</a></li>
+                                            <li><a href="javascript: void(0);">मुंबई उपनगर
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">ठाणे
+
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">रायगड
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">रत्नागिरी
+
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">सिंधुदुर्ग
+
+
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">
+                                            पुणे प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">पुणे प्रादेशिक</a></li>
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">पुणे शहर</a></li>
+                                            <li><a href="javascript: void(0);">सातारा</a></li>
+                                            <li><a href="javascript: void(0);">सांगली</a></li>
+                                            <li><a href="javascript: void(0);">सोलापूर</a></li>
+                                            <li><a href="javascript: void(0);">कोल्हापूर</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">
+                                            नाशिक प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">नाशिक शहर</a></li>
+                                            <li><a href="javascript: void(0);">धुळे</a></li>
+                                            <li><a href="javascript: void(0);">नंदुरबार</a></li>
+                                            <li><a href="javascript: void(0);">जळगाव</a></li>
+                                            <li><a href="javascript: void(0);">अहमदनगर</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">औरंगाबाद प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">औरंगाबाद प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">जालना</a></li>
+                                            <li><a href="javascript: void(0);">बीड</a></li>
+                                            <li><a href="javascript: void(0);">परभणी
+                                                </a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">अमरावती प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">अमरावती प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">बुलढाणा
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">अकोला
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">वाशीक
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">येवतमाळ
+
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">लातूर प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">लातूर प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">नांदेड</a></li>
+                                            <li><a href="javascript: void(0);">हिंगोली</a></li>
+                                            <li><a href="javascript: void(0);">उस्मानाबाद</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">नागपूर प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">नागपूर प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">वर्धा</a></li>
+                                            <li><a href="javascript: void(0);">भंडारा</a></li>
+                                            <li><a href="javascript: void(0);">गोंदिया
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">चंद्रपूर
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">गडचिरोली
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="professors.html"><i class="fa fa-black-tie"></i><span>एकूण आवक पत्र</span></a></li>
+                            <li><a href="staff.html"><i class="fa fa-user-circle-o"></i><span>एकूण जावक पत्र</span></a></li>
+
+                            <li class="g_heading">रिपोर्ट</li>
+                            <li><a href="events.html"><i class="fa fa-calendar"></i><span>फाइल ट्रॅकिंग रिपोर्ट</span></a></li>
+                            <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>पेंडन्सी रिपोर्ट</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="tab-pane fade" id="menu-admin" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+
+                            <li><a href="office-master.html"><i class="fa fa-dashboard"></i><span>कार्यालय जोडा</span></a></li>
+                            <li><a href="office-type.html"><i class="fa fa-list-ul"></i><span>कार्यालय प्रकार जोडा</span></a></li>
+                            <li><a href="employee-master.html"><i class="fa fa-bed"></i><span>कर्मचारी जोडा</span></a></li>
+                            <li><a href="department-master.html"><i class="fa fa-truck"></i><span>शाखा जोडा</span></a></li>
+                            <li><a href="subject-master.html"><i class="fa fa-calendar-check-o"></i><span>विषय जोडा</span></a></li>
+                            <li><a href="letter-master.html"><i class="fa fa-flag"></i><span>पत्राचे प्रकार जोडा</span></a></li>
+                            <li><a href="status-master.html"><i class="fa fa-gear"></i><span>स्टेट्स जोडा</span></a></li>
+                            <li><a href="year-master.html"><i class="fa fa-gear"></i><span>वर्ष जोडा</span></a></li>
+                            <li><a href="setting.html"><i class="fa fa-gear"></i><span>सेटिंग्ज</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Start project content area -->
+        <div class="page">
+            <!-- Start Page header -->
+            <div class="section-body" id="page_top">
+                <div class="container-fluid">
+                    <div class="page-header">
+                        <div class="left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="तुमचा फाईल ट्रॅकिंग नंबर टाइप करा">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="nav nav-pills">
+
+                            </ul>
+                            <div class="notification d-flex">
+
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <ul class="list-unstyled feeds_widget">
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-blue"><i class="fa fa-check"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Inward Received <strong class="text-blue font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-green"><i class="fa fa-user"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Change User </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-red"><i class="fa fa-info"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-red font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-azure"><i class="fa fa-thumbs-o-up"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-azure font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall"></a>
+                                    </div>
+                                </div>
+                                <div class="dropdown d-flex">
+                                    <a href="javascript:void(0)" class="chip ml-3" data-toggle="dropdown">
+                                        <span class="avatar" style="background-image: url(../assets/images/xs/avatar5.jpg)"></span> Super Admin</a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                                        <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Page title and tab -->
+
+            <div class="section-body">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <div class="header-action">
+                            <h1 class="page-title">विषय जोडा</h1>
+                            <ol class="breadcrumb page-breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">फाइल ट्रॅकिंग सिस्टम
+                                    </a></li>
+                                <li class="breadcrumb-item active" aria-current="page">विषय जोडा</li>
+                            </ol>
+                        </div>
+                        <ul class="nav nav-tabs page-header-tab">
+                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#List-all">सूची</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#List-add">विषय जोडा</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-body mt-4">
+                <div class="container-fluid">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="List-all">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="dataTables_length" id="DataTables_Table_0_length"><label>Show <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control">
+                                                                <option value="10">10</option>
+                                                                <option value="25">25</option>
+                                                                <option value="50">50</option>
+                                                                <option value="100">100</option>
+                                                            </select> entries</label></div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div id="DataTables_Table_0_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control" placeholder="" aria-controls="DataTables_Table_0"></label>
+                                                        <button class="btn btn-primary btn-lg btn-simple">Excel</button>
+                                                        <button class="btn btn-primary btn-lg btn-simple">PDF</button>
+                                                        <button class="btn btn-primary btn-lg btn-simple">Print</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 scrolling-wrapper">
+                                                    <table class="table table-hover js-basic-example dataTable table-striped table_custom border-style spacing5 no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                                        <thead>
+                                                            <tr role="row">
+                                                                <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="#: activate to sort column descending">#</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="OfficeType activate to sort column ascending">विषय </th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">कृती</th>
+                                                            </tr>
+
+                                                        </thead>
+                                                        <tbody>
+
+                                                                                 @{
+                                                                        var counter = 1;
+                                                                    }
+                                                                    @foreach (var sub in @Model.subjects)
+                                                                    {
+
+
+                                                                        <tr>
+                                                                            <td class="w60">
+                                                                                @(counter++)
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <span class="text-muted">
+                                                                                    @sub.Name
+
+                                                                                </span>
+                                                                            </td>
+
+
+
+                                                                            <td>
+                                                                                <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>
+
+                                                                                <a class="btn btn-icon btn-sm" asp-controller="WebAdmin"
+                                                                               asp-action="DepartmentMasterEdit" asp-route-Id=@sub.Id><i class="fa fa-edit"></i></a>
+
+                                                                                <a class="btn btn-icon btn-sm js-sweetalert" asp-controller="WebAdmin"
+                                                                               asp-action="SubjectMasterDelete" asp-route-Id=@sub.Id><i class="fa fa-trash-o text-danger"></i></a>
+                                                                            </td>
+
+
+                                                                        </tr>
+                                                                    }
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-5">
+                                                    <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 10 of 15 entries</div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                                        <ul class="pagination">
+                                                            <li class="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                                                            <li class="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                            <li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                            <li class="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="List-add">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">विषय जोडा</h3>
+                                    <div class="card-options">
+                                        <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                        <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
+                                    </div>
+                                </div>
+                                <form class="card-body" asp-controller="WebAdmin" asp-action="SubjectMasterAdd" method="post">
+                                    <div class="card-body">
+                                     
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-12">
+                                                    <div class="form-group">
+                                                        <label>विषय अनुक्रमांक<span class="text-danger">*</span>
+                                                        </label>
+                                                        <input asp-for=@Model.subjectes.Id class="form-control" placeholder="विषय अनुक्रमांक टाइप करा" type="text">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-9 col-sm-12">
+                                                    <div class="form-group">
+                                                        <label>विषय जोडा<span class="text-danger">*</span>
+                                                        </label>
+                                                        <input asp-for=@Model.subjectes.Name class="form-control" placeholder="विषय टाइप करा" type="text">
+                                                         <input asp-for=@Model.subjectes.IsDeleted type="text" value="true" hidden>
+                                                         <input asp-for=@Model.subjectes.SubName type="text" value="true" hidden>
+                                                         
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                        
+                                    </div>
+
+                                     <div class="form-group row">
+                                    <label class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-7">
+                                        <input type="submit" class="btn btn-primary" value="जतन करा">
+                                        <input type="reset" class="btn btn-outline-secondary" value=" रद्द करा">
+
+
+                                    </div>
+                                </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-125"></div>
+           
+            
+        </div>
+    </div>
+
+
+
+   
+
+   

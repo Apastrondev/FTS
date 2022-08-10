@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Home</title>
+
+    <!-- Bootstrap Core and vandor -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/plugins/dropify/css/dropify.min.css">
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap-grid.min.css" />
+      <link rel="stylesheet" href="../assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+      <link rel="stylesheet" href="../assets/plugins/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../assets/plugins/datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css">
+    <link rel="stylesheet" href="../assets/plugins/datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css">
+    <!-- Plugins css -->
+    <link rel="stylesheet" href="../assets/plugins/summernote/dist/summernote.css" />
+
+
+    <!-- Core css -->
+    <link rel="stylesheet" href="../assets/css/style.min.css" />
+
+    <!-- Start Main project js, jQuery, Bootstrap -->
+    <script src="../assets/bundles/lib.vendor.bundle.js"></script>
+
+    <!-- Start all plugin js -->
+    <script src="../assets/bundles/counterup.bundle.js"></script>
+    <script src="../assets/bundles/apexcharts.bundle.js"></script>
+    <script src="../assets/bundles/summernote.bundle.js"></script>
+
+    <!-- Start project main js  and page js -->
+    <script src="../assets/js/core.js"></script>
+    <script src="../assets/js/page/index.js"></script>
+    <script src="../assets/js/page/summernote.js"></script>
+
+</head>
+
+<body class="font-multi theme-blush gradient">
+    
+     <div id="main_content">
+        <div id="header_top" class="header_top">
+            <div class="container">
+                <div class="hleft">
+                    <a class="header-brand" href="index.html"><i class="fa fa-book brand-logo"></i></a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i class="fe fe-align-center"></i></a>
+                        <a href="page-search.html" class="nav-link icon"><i class="fe fe-search" data-toggle="tooltip" data-placement="right" title="Search..."></i></a>
+
+                        <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fe fe-settings"></i></a>
+                    </div>
+                </div>
+                <div class="hright">
+                    <a href="javascript:void(0)" class="nav-link icon right_tab"><i class="fe fe-align-right"></i></a>
+                    <a href="login.html" class="nav-link icon settingbar"><i class="fe fe-power"></i></a>
+                </div>
+            </div>
+        </div>
+
+   
+        
+            @RenderBody()
+             <div class="mt-125"></div>
+            <!-- Start main footer -->
+            <div class="section-body">
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                Copyright © 2022 फाइल ट्रॅकिंग सिस्टम
+                            </div>
+                            <div class="col-md-6 col-sm-12 text-md-right">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"> <a href="http://apastrontech.com" target="_blank">Developed By APASTRON</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)">FAQ</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-outline-primary btn-sm">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+            </div>
+            
+    <!-- Start Plugin Js -->
+    <script src="../assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="../assets/bundles/dataTables.bundle.js"></script>
+    <script src="../assets/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="../assets/plugins/dropify/js/dropify.min.js"></script>
+
+
+    <script src="../assets/js/page/dialogs.js"></script>
+    <script src="../assets/js/table/datatable.js"></script>
+
+    <!-- Start Main project js, jQuery, Bootstrap -->
+    <script src="../assets/bundles/lib.vendor.bundle.js"></script>
+
+    <!-- Start all plugin js -->
+    <script src="../assets/bundles/counterup.bundle.js"></script>
+    <script src="../assets/bundles/apexcharts.bundle.js"></script>
+    <script src="../assets/bundles/summernote.bundle.js"></script>
+
+    <!-- Start project main js  and page js -->
+    <script src="../assets/js/form/dropify.js"></script>
+    <script src="../assets/js/core.js"></script>
+    <script src="../assets/js/page/index.js"></script>
+    <script src="../assets/js/page/summernote.js"></script>  
+
+   
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

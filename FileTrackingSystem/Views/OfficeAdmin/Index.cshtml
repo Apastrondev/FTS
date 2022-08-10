@@ -1,0 +1,851 @@
+﻿@{
+    Layout = "_OfficeAdminLayout";
+}
+
+<!-- Start Page header -->
+<div class="section-body" id="page_top">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="तुमचा फाईल ट्रॅकिंग नंबर टाइप करा">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="nav nav-pills">
+                </ul>
+                <div class="notification d-flex">
+
+                    <div class="dropdown d-flex">
+                        <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                            <ul class="list-unstyled feeds_widget">
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-blue"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0">Inward Received <strong class="text-blue font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-green"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0">Change User </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-red"><i class="fa fa-info"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0"> <strong class="text-red font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-azure"><i class="fa fa-thumbs-o-up"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0"> <strong class="text-azure font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="dropdown-divider"></div>
+                            <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall"></a>
+                        </div>
+                    </div>
+                    <div class="dropdown d-flex">
+                        <a href="javascript:void(0)" class="chip ml-3" data-toggle="dropdown">
+                            <span class="avatar" style="background-image: url(../assets/images/xs/avatar5.jpg)"></span> Super Admin
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                            <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                            <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start Page title and tab -->
+<div class="section-body">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="header-action">
+                <h1 class="page-title">डॅशबोर्ड</h1>
+                <ol class="breadcrumb page-breadcrumb">
+                    <!--                            <li class="breadcrumb-item"><a href="#">Ericsson</a></li>-->
+                    <li class="breadcrumb-item"><a href="#">फाइल ट्रॅकिंग सिस्टम</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">डॅशबोर्ड</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="section-body mt-4">
+    <div class="container-fluid">
+        <div class="row clearfix row-deck">
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box red" data-toggle="tooltip" title="New Staff">300004</div>
+                        <a href="app-filemanager.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-question"></i>
+                            <span>राज्य स्तरावर एकूण पेंडन्सी</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box blue" data-toggle="tooltip" title="New Staff">300004</div>
+                        <a href="library.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-book"></i>
+                            <span>राज्य स्तरावर एकूण आवक पत्र</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box indigo" data-toggle="tooltip" title="New Staff">300004</div>
+                        <a href="holiday.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-book"></i>
+                            <span>राज्य स्तरावर एकूण जावक पत्र</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box red" data-toggle="tooltip" title="New Staff">204</div>
+                        <a href="app-filemanager.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-question"></i>
+                            <span>एकूण पेंडन्सी</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box blue" data-toggle="tooltip" title="New Staff">304</div>
+                        <a href="library.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-book"></i>
+                            <span>एकूण आवक पत्र</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4">
+                <div class="card">
+                    <div class="card-body ribbon">
+                        <div class="ribbon-box indigo" data-toggle="tooltip" title="New Staff">304</div>
+                        <a href="holiday.html" class="my_sort_cut text-muted">
+                            <i class="fa fa-book"></i>
+                            <span>एकूण जावक पत्र</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="admin-Dashboard" role="tabpanel">
+            <div class="row clearfix row-deck">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">मुंबई प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+
+
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">पुणे प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix row-deck">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">नाशिक प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">औरंगाबाद प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix row-deck">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">अमरावती प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">लातूर प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix row-deck">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">नागपूर प्रादेशिक कार्यालय</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                <div class="item-action dropdown ml-2">
+                                    <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                        <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" style="height: 310px;">
+                            <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                <tbody>
+                                    <tr>
+                                        <th>अ.क्र</th>
+                                        <th>डीडीओ </th>
+                                        <th>कार्यालयाचे नाव</th>
+                                        <th>एकूण पेंडन्सी</th>
+                                        <th>एकूण आवक</th>
+                                        <th>एकूण जावक </th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>मुंबई शहर</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>सहाय्यक आयुक्त समाज कल्याण, सिंधुदुर्ग</td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>110110</td>
+                                        <td>
+                                            जिल्हा समाज कल्याण अधिकारी, सिंधुदुर्ग
+                                        </td>
+                                        <td>9900</td>
+                                        <td>3000</td>
+                                        <td>3000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                            <div>
+                                <button type="button" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+

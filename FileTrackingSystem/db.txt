@@ -1,0 +1,6 @@
+alter table DepartmentMaster ADD IsDeleted BIT;
+
+alter table DesignationMaster ADD IsDeleted BIT;
+
+alter table LetterMaster Add IsDeleted BIT;
+

@@ -1,0 +1,41 @@
+C:\Apstron\FTS\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+C:\Apstron\FTS\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+C:\Apstron\FTS\DataLayer\bin\Debug\net6.0\DataLayer.dll
+C:\Apstron\FTS\DataLayer\bin\Debug\net6.0\ref\DataLayer.dll
+C:\Apstron\FTS\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.dll
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+C:\Apstron\FTS\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\bin\Debug\net6.0\DataLayer.dll
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.dll
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+D:\ApstronProj\FTSPROJ\FTS\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\bin\Debug\net6.0\DataLayer.dll
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.dll
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll

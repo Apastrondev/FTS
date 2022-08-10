@@ -1,0 +1,364 @@
+﻿
+
+
+    <!-- Page Loader -->
+    <!--
+<div class="page-loader-wrapper">
+    <div class="loader">
+    </div>
+</div>
+-->
+
+    <div id="main_content">
+       
+
+
+
+        <!-- Start Main leftbar navigation -->
+        <div id="left-sidebar" class="sidebar">
+            <h5 class="brand-name">फाइल ट्रॅकिंग सिस्टम<a href="javascript:void(0)" class="menu_option float-right">
+                    <!--            <i class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>-->
+                </a></h5>
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu-uni">कार्यालय</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu-admin">प्रशासक</a></li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+                            <li class="active"><a href="index.html"><i class="fa fa-dashboard"></i><span>डॅशबोर्ड</span></a></li>
+                            <li><a href="index.html"><i class="fa fa-search"></i><span>फाइल ट्रॅकिंग</span></a></li>
+
+                            <li><a href="total-inwards-form.html"><i class="fa fa-black-tie"></i><span>एकूण आवक पत्र</span></a></li>
+
+                            <li><a href="total-outwards-form.html"><i class="fa fa-user-circle-o"></i><span>एकूण जावक पत्र</span></a></li>
+
+                            <li class="g_heading">रिपोर्ट</li>
+                            <li><a href="events.html"><i class="fa fa-calendar"></i><span>फाइल ट्रॅकिंग रिपोर्ट</span></a></li>
+                            <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>पेंडन्सी रिपोर्ट</span></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="tab-pane fade" id="menu-admin" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+
+                            <li><a href="office-master.html"><i class="fa fa-dashboard"></i><span>कार्यालय जोडा</span></a></li>
+                            <li><a href="office-type.html"><i class="fa fa-list-ul"></i><span>कार्यालय प्रकार जोडा</span></a></li>
+                            <li><a href="employee-master.html"><i class="fa fa-bed"></i><span>कर्मचारी जोडा</span></a></li>
+                            <li><a href="designation-master.html"><i class="fa fa-truck"></i><span>पदनाम जोडा</span></a></li>
+                            <li><a href="department-master.html"><i class="fa fa-truck"></i><span>विभाग जोडा</span></a></li>
+                            <li><a href="subject-master.html"><i class="fa fa-calendar-check-o"></i><span>विषय जोडा</span></a></li>
+                            <li><a href="letter-master.html"><i class="fa fa-flag"></i><span>पत्राचे प्रकार जोडा</span></a></li>
+                            <li><a href="status-master.html"><i class="fa fa-gear"></i><span>स्टेट्स जोडा</span></a></li>
+                            <li><a href="year-master.html"><i class="fa fa-gear"></i><span>वर्ष जोडा</span></a></li>
+                            <li><a href="setting.html"><i class="fa fa-gear"></i><span>सेटिंग्ज</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Start project content area -->
+        <div class="page">
+            <!-- Start Page header -->
+            <div class="section-body" id="page_top">
+                <div class="container-fluid">
+                    <div class="page-header">
+                        <div class="left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="तुमचा फाईल ट्रॅकिंग नंबर टाइप करा">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="nav nav-pills">
+
+                            </ul>
+                            <div class="notification d-flex">
+
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <ul class="list-unstyled feeds_widget">
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-blue"><i class="fa fa-check"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Inward Received <strong class="text-blue font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-green"><i class="fa fa-user"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Change User </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-red"><i class="fa fa-info"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-red font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-azure"><i class="fa fa-thumbs-o-up"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-azure font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall"></a>
+                                    </div>
+                                </div>
+                                <div class="dropdown d-flex">
+                                    <a href="javascript:void(0)" class="chip ml-3" data-toggle="dropdown">
+                                        <span class="avatar" style="background-image: url(../assets/images/xs/avatar5.jpg)"></span> कनिष्ठ लिपिक</a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                                        <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start Page title and tab -->
+            <div class="section-body">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <div class="header-action">
+                            <h1 class="page-title">जावक नोंद </h1>
+                            <ol class="breadcrumb page-breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">फाइल ट्रॅकिंग सिस्टम
+                                    </a></li>
+                                <li class="breadcrumb-item active" aria-current="page">जावक नोंद </li>
+                            </ol>
+                        </div>
+                        <ul class="nav nav-tabs page-header-tab">
+                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#List-all">सूची</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Page title and tab -->
+            <div class="section-body mt-4">
+                <div class="container-fluid">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="List-all">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="dataTables_length" id="DataTables_Table_0_length"><label>Show <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control">
+                                                                <option value="10">10</option>
+                                                                <option value="25">25</option>
+                                                                <option value="50">50</option>
+                                                                <option value="100">100</option>
+                                                            </select> entries</label></div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div id="DataTables_Table_0_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control" placeholder="" aria-controls="DataTables_Table_0"></label>
+                                                        <button class="btn btn-primary btn-lg btn-simple">Excel</button>
+                                                        <button class="btn btn-primary btn-lg btn-simple">PDF</button>
+                                                        <button class="btn btn-primary btn-lg btn-simple">Print</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 scrolling-wrapper">
+                                                    <table class="table table-hover js-basic-example dataTable table-striped table_custom border-style spacing5 no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                                        <thead>
+                                                            <tr role="row">
+                                                                <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 24.0333px;" aria-sort="ascending" aria-label="#: activate to sort column descending">जावक क्र</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="OfficeType: activate to sort column ascending">फाइल ट्रॅकिंग क्र</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="OfficeDDOCode: activate to sort column ascending">आवक दिनांक</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending">संदर्भ क्रमांक</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="ContactPerson: activate to sort column ascending">संदर्भ दिनांक</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mobile: activate to sort column ascending">कोणाकडून आले </th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">विषय</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">पत्राचे प्रकार</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">कोणत्या शाखेत पाठवले</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">कोणत्या कर्मचाऱ्याला पाठवले</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">स्टेटस</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">शेरा</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">प्रतिलिपि 1</th>
+                                                                <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">प्रतिलिपि 2</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+
+                                                            <tr role="row" class="odd">
+                                                                <td class="w60">
+                                                                    1
+                                                                </td>
+                                                                <td>
+                                                                    ACOTNA20012020
+                                                                </td>
+                                                                <td><span>20/02/2022</span></td>
+                                                                <td><span class="text-muted">20</span></td>
+                                                                <td>10/02/2022</td>
+                                                                <td>गृहपाल, मुलांचे शावगृह</td>
+                                                                <td>वसतिगृह</td>
+                                                                <td>शासन पत्रे</td>
+                                                                <td>वसतिगृह शाखा</td>
+                                                                <td>दुसऱ्याकडे पाठवले</td>
+                                                                <td></td>
+                                                                <td>कार्यालयीन अधिक्षक</td>
+                                                                <td>आस्थापना शाखा</td>
+                                                                <td>
+
+                                                                    <button type="button" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></button>
+
+                                                                </td>
+                                                            </tr>
+                                                            <tr role="row" class="even">
+                                                                <td class="sorting_1">2</td>
+                                                                <td>Java Black Book</td>
+                                                                <td>Graphics</td>
+                                                                <td>MBA</td>
+                                                                <td>Third Year</td>
+                                                                <td>DVD</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="odd">
+                                                                <td class="sorting_1">3</td>
+                                                                <td>Parallel Computing</td>
+                                                                <td>Politics</td>
+                                                                <td>Architecture</td>
+                                                                <td>Third Year</td>
+                                                                <td>Newspaper</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="even">
+                                                                <td class="sorting_1">4</td>
+                                                                <td>Networking</td>
+                                                                <td>Computer</td>
+                                                                <td>MBA</td>
+                                                                <td>Last Year</td>
+                                                                <td>Newspaper</td>
+                                                                <td>In Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="odd">
+                                                                <td class="sorting_1">5</td>
+                                                                <td>Web Programming</td>
+                                                                <td>Mechanics</td>
+                                                                <td>Computer</td>
+                                                                <td>Third Year</td>
+                                                                <td>Book</td>
+                                                                <td>In Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="even">
+                                                                <td class="sorting_1">6</td>
+                                                                <td>Designing</td>
+                                                                <td>Mechanics</td>
+                                                                <td>Computer</td>
+                                                                <td>Third Year</td>
+                                                                <td>Newspaper</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="odd">
+                                                                <td class="sorting_1">7</td>
+                                                                <td>Mechanics</td>
+                                                                <td>Computer</td>
+                                                                <td>Computer Engineering</td>
+                                                                <td>Second Year</td>
+                                                                <td>DVD</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="even">
+                                                                <td class="sorting_1">8</td>
+                                                                <td>Computer Fundamental</td>
+                                                                <td>Animation</td>
+                                                                <td>Mechanical</td>
+                                                                <td>Third Year</td>
+                                                                <td>CD</td>
+                                                                <td>In Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="odd">
+                                                                <td class="sorting_1">9</td>
+                                                                <td>Time History</td>
+                                                                <td>Management</td>
+                                                                <td>Mechanical</td>
+                                                                <td>Third Year</td>
+                                                                <td>Newspaper</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                            <tr role="row" class="even">
+                                                                <td class="sorting_1">10</td>
+                                                                <td>Politics</td>
+                                                                <td>Designing</td>
+                                                                <td>Mechanical</td>
+                                                                <td>Second Year</td>
+                                                                <td>Newspaper</td>
+                                                                <td>Out of Stock</td>
+
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-5">
+                                                    <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 10 of 15 entries</div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                                        <ul class="pagination">
+                                                            <li class="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                                                            <li class="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                            <li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                            <li class="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="mt-125"></div>
+          
+            
+        </div>
+    </div>
+
+
+
+    

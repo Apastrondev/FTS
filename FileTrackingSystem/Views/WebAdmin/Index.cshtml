@@ -1,0 +1,1249 @@
+﻿
+    <!-- Page Loader -->
+    <!--
+<div class="page-loader-wrapper">
+    <div class="loader">
+    </div>
+</div>
+-->
+
+    <div id="main_content">
+        
+        <!-- Start Rightbar setting panel -->
+        <div id="rightsidebar" class="right_sidebar">
+            <a href="javascript:void(0)" class="p-3 settingbar float-right"><i class="fa fa-close"></i></a>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Settings" aria-expanded="true">Settings</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#activity" aria-expanded="false">Activity</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane vivify fadeIn active" id="Settings" aria-expanded="true">
+                    <div class="mb-4">
+                        <h6 class="font-14 font-weight-bold text-muted">Theme Color</h6>
+                        <ul class="choose-skin list-unstyled mb-0">
+                            <li data-theme="azure">
+                                <div class="azure"></div>
+                            </li>
+                            <li data-theme="indigo">
+                                <div class="indigo"></div>
+                            </li>
+                            <li data-theme="purple">
+                                <div class="purple"></div>
+                            </li>
+                            <li data-theme="orange">
+                                <div class="orange"></div>
+                            </li>
+                            <li data-theme="green">
+                                <div class="green"></div>
+                            </li>
+                            <li data-theme="cyan" class="active">
+                                <div class="cyan"></div>
+                            </li>
+                            <li data-theme="blush">
+                                <div class="blush"></div>
+                            </li>
+                            <li data-theme="white">
+                                <div class="bg-white"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <h6 class="font-14 font-weight-bold text-muted">Font Style</h6>
+                        <div class="custom-controls-stacked font_setting">
+                            <label class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="font" value="font-muli" checked="">
+                                <span class="custom-control-label">Muli Google Font</span>
+                            </label>
+                            <label class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="font" value="font-montserrat">
+                                <span class="custom-control-label">Montserrat Google Font</span>
+                            </label>
+                            <label class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="font" value="font-poppins">
+                                <span class="custom-control-label">Poppins Google Font</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="font-14 font-weight-bold mt-4 text-muted">General Settings</h6>
+                        <ul class="setting-list list-unstyled mt-1 setting_switch">
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Night Mode</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-darkmode">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Fix Navbar top</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-fixnavbar">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Header Dark</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-pageheader">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Min Sidebar Dark</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-min_sidebar">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Sidebar Dark</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-sidebar">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Icon Color</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-iconcolor">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Gradient Color</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-gradient" checked="">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Box Shadow</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-boxshadow">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">RTL Support</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-rtl">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-switch">
+                                    <span class="custom-switch-description">Box Layout</span>
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-boxlayout">
+                                    <span class="custom-switch-indicator"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label class="d-block">Storage <span class="float-right">77%</span></label>
+                        <div class="progress progress-sm">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;"></div>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block mt-3">Upgrade Storage</button>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane vivify fadeIn" id="activity" aria-expanded="false">
+                    <ul class="new_timeline mt-3">
+                        <li>
+                            <div class="bullet pink"></div>
+                            <div class="time">11:00am</div>
+                            <div class="desc">
+                                <h3>Attendance</h3>
+                                <h4>Computer Class</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bullet pink"></div>
+                            <div class="time">11:30am</div>
+                            <div class="desc">
+                                <h3>Added an interest</h3>
+                                <h4>“Volunteer Activities”</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bullet green"></div>
+                            <div class="time">12:00pm</div>
+                            <div class="desc">
+                                <h3>Developer Team</h3>
+                                <h4>Hangouts</h4>
+                                <ul class="list-unstyled team-info margin-0 p-t-5">
+                                    <li><img src="../assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                                    <li><img src="../assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                                    <li><img src="../assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                                    <li><img src="../assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bullet green"></div>
+                            <div class="time">2:00pm</div>
+                            <div class="desc">
+                                <h3>Responded to need</h3>
+                                <a href="javascript:void(0)">“In-Kind Opportunity”</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bullet orange"></div>
+                            <div class="time">1:30pm</div>
+                            <div class="desc">
+                                <h3>Lunch Break</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bullet green"></div>
+                            <div class="time">2:38pm</div>
+                            <div class="desc">
+                                <h3>Finish</h3>
+                                <h4>Go to Home</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Start Theme panel do not add in project -->
+        <div class="theme_div">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group list-unstyled">
+                        <li class="list-group-item mb-2">
+                            <p>Light Version</p>
+                            <a href="../university/index.html"><img src="../assets/images/themes/default.png" class="img-fluid" alt="" /></a>
+                        </li>
+                        <li class="list-group-item mb-2">
+                            <p>Dark Version</p>
+                            <a href="../university-dark/index.html"><img src="../assets/images/themes/dark.png" class="img-fluid" alt="" /></a>
+                        </li>
+                        <li class="list-group-item mb-2">
+                            <p>RTL Version</p>
+                            <a href="../university-rtl/index.html"><img src="../assets/images/themes/rtl.png" class="img-fluid" alt="" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Main leftbar navigation -->
+        <div id="left-sidebar" class="sidebar">
+            <h5 class="brand-name">फाइल ट्रॅकिंग सिस्टम<a href="javascript:void(0)" class="menu_option float-right">
+                    <!--            <i class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>-->
+                </a></h5>
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu-uni">कार्यालय</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu-admin">प्रशासक</a></li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+                            <li class="active"><a href="index.html"><i class="fa fa-dashboard"></i><span>डॅशबोर्ड</span></a></li>
+                            <li><a href="index.html"><i class="fa fa-search"></i><span>फाइल ट्रॅकिंग</span></a></li>
+                            <li class="mm-active">
+
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="true">
+                                    <i class="fa fa-align-justify"></i>
+                                    <span>कार्यालय</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+                                    <!--                                    <li><a href="javascript: void(0);" aria-expanded="false">Level 1.1</a></li>-->
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">मुंबई प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">मुंबई शहर</a></li>
+                                            <li><a href="javascript: void(0);">मुंबई उपनगर
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">ठाणे
+
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">रायगड
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">रत्नागिरी
+
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">सिंधुदुर्ग
+
+
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">
+                                            पुणे प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">पुणे प्रादेशिक</a></li>
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">पुणे शहर</a></li>
+                                            <li><a href="javascript: void(0);">सातारा</a></li>
+                                            <li><a href="javascript: void(0);">सांगली</a></li>
+                                            <li><a href="javascript: void(0);">सोलापूर</a></li>
+                                            <li><a href="javascript: void(0);">कोल्हापूर</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">
+                                            नाशिक प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">नाशिक शहर</a></li>
+                                            <li><a href="javascript: void(0);">धुळे</a></li>
+                                            <li><a href="javascript: void(0);">नंदुरबार</a></li>
+                                            <li><a href="javascript: void(0);">जळगाव</a></li>
+                                            <li><a href="javascript: void(0);">अहमदनगर</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">औरंगाबाद प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">औरंगाबाद प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">जालना</a></li>
+                                            <li><a href="javascript: void(0);">बीड</a></li>
+                                            <li><a href="javascript: void(0);">परभणी
+                                                </a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">अमरावती प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">अमरावती प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">बुलढाणा
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">अकोला
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">वाशीक
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">येवतमाळ
+
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">लातूर प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">लातूर प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">नांदेड</a></li>
+                                            <li><a href="javascript: void(0);">हिंगोली</a></li>
+                                            <li><a href="javascript: void(0);">उस्मानाबाद</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="true" style="">
+
+                                    <li class="mm-active"><a href="javascript: void(0);" class="has-arrow" aria-expanded="true">नागपूर प्रादेशिक कार्यालय</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li style="padding: 0px;"><a href="javascript: void(0);">नागपूर प्रादेशिक</a></li>
+                                            <li><a href="javascript: void(0);">वर्धा</a></li>
+                                            <li><a href="javascript: void(0);">भंडारा</a></li>
+                                            <li><a href="javascript: void(0);">गोंदिया
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">चंद्रपूर
+                                                </a></li>
+                                            <li><a href="javascript: void(0);">गडचिरोली
+                                                </a></li>
+
+
+                                        </ul>
+                                    </li>
+                                </ul>
+
+
+                            </li>
+
+
+
+                            <li><a href="total-inwards-form.html"><i class="fa fa-black-tie"></i><span>एकूण आवक पत्र</span></a></li>
+                            <li><a href="total-outwards-form.html"><i class="fa fa-user-circle-o"></i><span>एकूण जावक पत्र</span></a></li>
+
+                            <li class="g_heading">रिपोर्ट</li>
+                            <li><a href="events.html"><i class="fa fa-calendar"></i><span>फाइल ट्रॅकिंग रिपोर्ट</span></a></li>
+                            <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>पेंडन्सी रिपोर्ट</span></a></li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="tab-pane fade" id="menu-admin" role="tabpanel">
+                    <nav class="sidebar-nav">
+                        <ul class="metismenu">
+                        
+                            <li><a href="office-master.html"><i class="fa fa-dashboard"></i><span>कार्यालय जोडा</span></a></li>
+                            <li><a href="office-type.html"><i class="fa fa-list-ul"></i><span>कार्यालय प्रकार जोडा</span></a></li>
+                            <li><a href="employee-master.html"><i class="fa fa-bed"></i><span>कर्मचारी जोडा</span></a></li>
+                             <li><a href="designation-master.html"><i class="fa fa-truck"></i><span>पदनाम जोडा</span></a></li>
+                            <li><a href="department-master.html"><i class="fa fa-truck"></i><span>शाखा जोडा</span></a></li>
+                            <li><a href="subject-master.html"><i class="fa fa-calendar-check-o"></i><span>विषय जोडा</span></a></li>
+                            <li><a href="letter-master.html"><i class="fa fa-flag"></i><span>पत्राचे प्रकार जोडा</span></a></li>
+                            <li><a href="status-master.html"><i class="fa fa-gear"></i><span>स्टेट्स जोडा</span></a></li>
+                            <li><a href="year-master.html"><i class="fa fa-gear"></i><span>वर्ष जोडा</span></a></li>
+                            <li><a href="setting.html"><i class="fa fa-gear"></i><span>सेटिंग्ज</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Start project content area -->
+        <div class="page">
+            <!-- Start Page header -->
+            <div class="section-body" id="page_top">
+                <div class="container-fluid">
+                    <div class="page-header">
+                        <div class="left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="तुमचा फाईल ट्रॅकिंग नंबर टाइप करा">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="nav nav-pills">
+
+                            </ul>
+                            <div class="notification d-flex">
+
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <ul class="list-unstyled feeds_widget">
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-blue"><i class="fa fa-check"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Inward Received <strong class="text-blue font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-green"><i class="fa fa-user"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0">Change User </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-red"><i class="fa fa-info"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-red font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="feeds-left">
+                                                    <span class="avatar avatar-azure"><i class="fa fa-thumbs-o-up"></i></span>
+                                                </div>
+                                                <div class="feeds-body ml-3">
+                                                    <p class="text-muted mb-0"> <strong class="text-azure font-weight-bold"></strong> </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall"></a>
+                                    </div>
+                                </div>
+                                <div class="dropdown d-flex">
+                                    <a href="javascript:void(0)" class="chip ml-3" data-toggle="dropdown">
+                                        <span class="avatar" style="background-image: url(../assets/images/xs/avatar5.jpg)"></span> Super Admin</a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                                        <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Page title and tab -->
+            <div class="section-body">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="header-action">
+                            <h1 class="page-title">डॅशबोर्ड</h1>
+                            <ol class="breadcrumb page-breadcrumb">
+                                <!--                            <li class="breadcrumb-item"><a href="#">Ericsson</a></li>-->
+                                <li class="breadcrumb-item"><a href="#">फाइल ट्रॅकिंग सिस्टम</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">डॅशबोर्ड</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="section-body mt-4">
+                <div class="container-fluid">
+                    <div class="row clearfix row-deck">
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box red" data-toggle="tooltip" title="New Staff">300004</div>
+                                    <a href="app-filemanager.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-question"></i>
+                                        <span>राज्य स्तरावर एकूण पेंडन्सी</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box blue" data-toggle="tooltip" title="New Staff">300004</div>
+                                    <a href="library.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-book"></i>
+                                        <span>राज्य स्तरावर एकूण आवक पत्र</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box indigo" data-toggle="tooltip" title="New Staff">300004</div>
+                                    <a href="holiday.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-book"></i>
+                                        <span>राज्य स्तरावर एकूण जावक पत्र</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box red" data-toggle="tooltip" title="New Staff">204</div>
+                                    <a href="app-filemanager.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-question"></i>
+                                        <span>एकूण पेंडन्सी</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box blue" data-toggle="tooltip" title="New Staff">304</div>
+                                    <a href="library.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-book"></i>
+                                        <span>एकूण आवक पत्र</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-body ribbon">
+                                    <div class="ribbon-box indigo" data-toggle="tooltip" title="New Staff">304</div>
+                                    <a href="holiday.html" class="my_sort_cut text-muted">
+                                        <i class="fa fa-book"></i>
+                                        <span>एकूण जावक पत्र</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="admin-Dashboard" role="tabpanel">
+                        <div class="row clearfix row-deck">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">मुंबई प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+
+
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">पुणे प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix row-deck">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">नाशिक प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">औरंगाबाद प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix row-deck">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">अमरावती प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">लातूर प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix row-deck">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">नागपूर प्रादेशिक कार्यालय</h3>
+                                        <div class="card-options">
+                                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                            <div class="item-action dropdown ml-2">
+                                                <a href="javascript:void(0)" data-toggle="dropdown"><i class="fe fe-more-vertical"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-eye"></i> View Details </a>
+
+                                                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fa fa-cloud-download"></i> Download</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive" style="height: 310px;">
+                                        <table class="table card-table table-vcenter text-nowrap table-striped mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>अ.क्र</th>
+                                                    <th>डीडीओ </th>
+                                                    <th>कार्यालयाचे नाव</th>
+                                                    <th>एकूण पेंडन्सी</th>
+                                                    <th>एकूण आवक</th>
+                                                    <th>एकूण जावक </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>मुंबई शहर</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>सहाय्यक आयुक्त समाज कल्याण, सिंधुदुर्ग</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>110110</td>
+                                                    <td>
+                                                        जिल्हा समाज कल्याण अधिकारी, सिंधुदुर्ग</td>
+                                                    <td>9900</td>
+                                                    <td>3000</td>
+                                                    <td>3000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <div class="font-14"><span>Measure How Fast You’re Growing Monthly. <a href="#">View All</a></span></div>
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Export</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      
+    </div>
+
+    

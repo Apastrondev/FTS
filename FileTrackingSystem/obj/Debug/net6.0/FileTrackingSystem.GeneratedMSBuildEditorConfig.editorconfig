@@ -1,0 +1,168 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FileTrackingSystem
+build_property.RootNamespace = FileTrackingSystem
+build_property.ProjectDir = C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\FileTrackingSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\LENOVO\Desktop\File Tracking\FTS\FTS\FileTrackingSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Home/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/DepartmentMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cRGVwYXJ0bWVudE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/DesignationMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cRGVzaWduYXRpb25NYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/EmployeeMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cRW1wbG95ZWVNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/LetterMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cTGV0dGVyTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/OfficeMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cT2ZmaWNlTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/OfficeType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cT2ZmaWNlVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/StatusMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cU3RhdHVzTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/SubjectMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cU3ViamVjdE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/TotalInwardForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cVG90YWxJbndhcmRGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/TotalOutwardForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cVG90YWxPdXR3YXJkRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/OfficeAdmin/YearMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlQWRtaW5cWWVhck1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Shared/_OfficeAdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PZmZpY2VBZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/DepartmentMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cRGVwYXJ0bWVudE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/DesignationMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cRGVzaWduYXRpb25NYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/EmployeeMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cRW1wbG95ZWVNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/LetterMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cTGV0dGVyTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/OfficeMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cT2ZmaWNlTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/OfficeType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cT2ZmaWNlVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cU2V0dGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/StatusMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cU3RhdHVzTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/SubjectMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cU3ViamVjdE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/TotalInwardsForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cVG90YWxJbndhcmRzRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/TotalOutwardsForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cVG90YWxPdXR3YXJkc0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/YearMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cWWVhck1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/WebAdmin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-662kwcuz7i
+
+[C:/Users/LENOVO/Desktop/File Tracking/FTS/FTS/FileTrackingSystem/Views/Shared/_WebAdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWJBZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-kpt0zp09g9

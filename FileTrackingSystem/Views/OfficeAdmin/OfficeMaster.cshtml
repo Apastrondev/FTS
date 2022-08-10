@@ -1,0 +1,423 @@
+﻿@model FileTrackingSystem.ViewModel.OfficeAdmin.OfficeAdminOfficeMasterViewModel
+@{
+    Layout = "_OfficeAdminLayout";
+}
+
+<!-- Start Page header -->
+<div class="section-body" id="page_top">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="तुमचा फाईल ट्रॅकिंग नंबर टाइप करा">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="nav nav-pills">
+                </ul>
+                <div class="notification d-flex">
+
+                    <div class="dropdown d-flex">
+                        <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                            <ul class="list-unstyled feeds_widget">
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-blue"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0">Inward Received <strong class="text-blue font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-green"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0">Change User </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-red"><i class="fa fa-info"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0"> <strong class="text-red font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feeds-left">
+                                        <span class="avatar avatar-azure"><i class="fa fa-thumbs-o-up"></i></span>
+                                    </div>
+                                    <div class="feeds-body ml-3">
+                                        <p class="text-muted mb-0"> <strong class="text-azure font-weight-bold"></strong> </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="dropdown-divider"></div>
+                            <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall"></a>
+                        </div>
+                    </div>
+                    <div class="dropdown d-flex">
+                        <a href="javascript:void(0)" class="chip ml-3" data-toggle="dropdown">
+                            <span class="avatar" style="background-image: url(../assets/images/xs/avatar5.jpg)"></span> Super Admin
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                            <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                            <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section-body">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center ">
+            <div class="header-action">
+                <h1 class="page-title">कार्यालय जोडा</h1>
+                <ol class="breadcrumb page-breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            फाइल ट्रॅकिंग सिस्टम
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">कार्यालय जोडा</li>
+                </ol>
+            </div>
+            <ul class="nav nav-tabs page-header-tab">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Library-all">सूची</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Library-add">कार्यालय जोडा</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="section-body mt-4">
+    <div class="container-fluid">
+        <div class="tab-content">
+            <div class="tab-pane active" id="Library-all">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="dataTables_length" id="DataTables_Table_0_length">
+                                            <label>
+                                                Show
+                                                <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control">
+                                                    <option value="10">10</option>
+                                                    <option value="25">25</option>
+                                                    <option value="50">50</option>
+                                                    <option value="100">100</option>
+                                                </select> entries
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                            <label>Search:<input type="search" class="form-control" placeholder="" aria-controls="DataTables_Table_0"></label>
+                                            <button class="btn btn-primary btn-lg btn-simple">Excel</button>
+                                            <button class="btn btn-primary btn-lg btn-simple">PDF</button>
+                                            <button class="btn btn-primary btn-lg btn-simple">Print</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 scrolling-wrapper">
+                                        <table class="table table-hover js-basic-example dataTable table-striped table_custom border-style spacing5 no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 24.0333px;" aria-sort="ascending" aria-label="#: activate to sort column descending">#</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="OfficeType: activate to sort column ascending">कार्यालय प्रकार</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="OfficeDDOCode: activate to sort column ascending">डि डी ओ कोड</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending">कार्यालय</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="ContactPerson: activate to sort column ascending">संपर्क व्यक्ती</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mobile: activate to sort column ascending">मोबाईल</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="District: activate to sort column ascending">जिल्हा</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">ईमेल</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Contact: activate to sort column ascending">दूरध्वनी</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Fax: activate to sort column ascending">फॅक्स</th>
+                                                    <th tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">कृती</th>
+
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @{
+                                                    int SrNo = 1;
+                                                }
+                                                @foreach (var officeMaster in Model.officeMasters)
+                                                {
+                                                    <tr role="row" class="odd">
+                                                        <td class="sorting_1">@(SrNo++)</td>
+                                                        <td>@officeMaster.OfficeTypeId</td>
+                                                        <td>@officeMaster.Ddocode</td>
+                                                        <td>@officeMaster.OfficeName</td>
+                                                        <td>@officeMaster.ContactPersonName</td>
+                                                        <td>@officeMaster.Contact1</td>
+                                                        <td>@officeMaster.District</td>
+                                                        <td>@officeMaster.Email</td>
+                                                        <td>@officeMaster.Contact2</td>
+                                                        <td>@officeMaster.Fax</td>
+                                                        <td>
+                                                            @* <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>*@
+                                                            <a class="btn btn-icon btn-sm" asp-area="" asp-controller="OfficeAdmin" asp-action="EditOfficeMaster" asp-route-id="@officeMaster.Id"><i class="fa fa-edit"></i></a>
+                                                            <a class="btn btn-icon btn-sm js-sweetalert" asp-area="" asp-controller="OfficeAdmin" asp-action="DeleteOfficeMaster" asp-route-id="@officeMaster.Id" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-5">
+                                        <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 10 of 15 entries</div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7">
+                                        <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                            <ul class="pagination">
+                                                <li class="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                                                <li class="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                <li class="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="Library-add">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">कार्यालय जोडा</h3>
+                        <div class="card-options ">
+                            <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                            <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
+                        </div>
+                    </div>
+                    <form class="card-body" asp-controller="OfficeAdmin" asp-action="AddOfficeMaster" method="post">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12">
+                                    <div class="form-group">
+                                        <label>कार्यालय प्रकार निवडा<span class="text-danger">*</span></label>
+                                        <select class="form-control" asp-for="@Model.OfficeTypeId">
+                                            <option value="">-- कार्यालय प्रकार निवडा --</option>
+                                            @foreach (var type in Model.officeType)
+                                            {
+                                                <option value=@type.Id>@type.Type</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 col-sm-12 g-2" style="padding-top: 30px;">
+                                    <button type="submit" class="btn btn-primary">
+                                        +
+                                    </button>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Ddocode>
+                                            ऑफिस डि डी ओ कोड<span class="text-danger">*</span>
+                                        </label>
+                                        <input asp-for=@Model.Ddocode class="form-control" placeholder="ऑफिस डि डी ओ कोड टाइप करा" value="" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.OfficeName>कार्यालयाचे नाव <span class="text-danger">*</span></label>
+                                        <input asp-for=@Model.OfficeName class="form-control" placeholder="कार्यालयाचे नाव टाइप करा" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.ContactPersonName>संपर्क व्यक्ती <span class="text-danger">*</span></label>
+                                        <input asp-for=@Model.ContactPersonName class="form-control" placeholder="तुमचे नाव टाइप करा" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Contact1>मोबाईल नंबर <span class="text-danger">*</span></label>
+                                        <input asp-for=@Model.Contact1 class="form-control" placeholder="तुमचे मोबाईल नंबर टाइप करा " type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6 col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.District>जिल्हा<span class="text-danger">*</span></label>
+
+                                        <select asp-for=@Model.District class="form-control">
+                                            <option value="">
+                                                -- जिल्हा निवडा --
+                                            </option>
+                                            <option value="AF">अमरावती </option>
+                                            <option value="AF">अहमदनगर </option>
+                                            <option value="AF">अकोला </option>
+                                            <option value="AF">उस्मानाबाद </option>
+                                            <option value="AF">औरंगाबाद </option>
+                                            <option value="AF">कोल्हापूर </option>
+                                            <option value="AF">गडचिरोली </option>
+                                            <option value="AF">गोंदिया </option>
+                                            <option value="AF">चंद्रपूर </option>
+                                            <option value="AF">जळगांव </option>
+                                            <option value="AF">जालना </option>
+                                            <option value="AF">ठाणे </option>
+                                            <option value="AF">धुळे </option>
+                                            <option value="AF">नंदुरबार </option>
+                                            <option value="AF">नागपूर </option>
+                                            <option value="AF">नांदेड </option>
+                                            <option value="AF">नाशिक </option>
+                                            <option value="AF">परभणी </option>
+                                            <option value="AF">पालघर </option>
+                                            <option value="AF">पुणे </option>
+                                            <option value="AF">बीड </option>
+                                            <option value="AF">बुलढाणा </option>
+                                            <option value="AF">भंडारा </option>
+                                            <option value="AF">मुबई उपनगर</option>
+                                            <option value="AF">मुंबई शहर </option>
+                                            <option value="AF">यवतमाळ </option>
+                                            <option value="AF">रत्नागिरी </option>
+                                            <option value="AF">रायगड </option>
+                                            <option value="AF">लातूर </option>
+                                            <option value="AF">वर्धा </option>
+                                            <option value="AF">वाशीम </option>
+                                            <option value="AF">सांगली </option>
+                                            <option value="AF">सातारा </option>
+                                            <option value="AF">सिंधुदुर्ग </option>
+                                            <option value="AF">सोलापूर </option>
+                                            <option value="AF">हिंगोली </option>
+                                        </select>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6 col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Taluka>तालुका</label>
+                                        <select asp-for=@Model.Taluka class="form-control">
+                                            <option value="">-- तालुका निवडा</option>
+                                            <option>अकोला</option>
+                                            <option>अमरावती</option>
+                                            <option>बुलढाणा</option>
+                                            <option>यवतमाळ</option>
+                                            <option>वाशिम</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-6 col-md-6 col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Village>गाव</label>
+                                        <select asp-for=@Model.Village class="form-control">
+                                            <option value="">-- गाव निवडा --</option>
+                                            <option>अकोला</option>
+                                            <option>अमरावती</option>
+                                            <option>बुलढाणा</option>
+                                            <option>यवतमाळ</option>
+                                            <option>वाशिम</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6 col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.PinCode>
+                                            पिन कोड
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <input asp-for=@Model.PinCode class="form-control" placeholder="पिन कोड टाइप करा" type="text">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Address>
+                                            पत्ता
+                                        </label>
+                                        <textarea asp-for=@Model.Address class="form-control" placeholder="पत्ता टाइप करा" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Email>
+                                            ईमेल
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="icon-envelope"></i></span>
+                                            </div>
+                                            <input asp-for=@Model.Email type="text" class="form-control" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.WebSite>वेबसाईट यु आर एल</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="icon-globe"></i></span>
+                                            </div>
+                                            <input asp-for=@Model.WebSite type="text" class="form-control" placeholder="http://">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Contact2>
+                                            दूरध्वनी क्रमांक
+                                        </label>
+                                        <input asp-for=@Model.Contact2 class="form-control" placeholder="दूरध्वनी क्रमांक टाइप करा" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label asp-for=@Model.Fax>
+                                            फॅक्स
+                                        </label>
+                                        <input asp-for=@Model.Fax class="form-control" placeholder="फॅक्स क्रमांक टाइप कर " type="text">
+                                        <input asp-for=@Model.IsDeleted value="false" type="text" hidden>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 text-right m-t-20">
+                                    <button type="submit" class="btn btn-primary">
+                                        जतन करा
+                                    </button>
+                                    <button type="reset" class="btn btn-outline-secondary">
+                                        रद्द करा
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
