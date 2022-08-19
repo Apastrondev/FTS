@@ -2,6 +2,9 @@
 using FileTrackingSystem.Extensions;
 using FileTrackingSystem.ViewModel.OfficeAdmin;
 using Microsoft.AspNetCore.Mvc;
+using X.PagedList.Mvc.Core;
+using X.PagedList;
+using X.PagedList.Mvc;
 
 namespace FileTrackingSystem.Controllers
 {
@@ -102,12 +105,14 @@ namespace FileTrackingSystem.Controllers
             }
         }
         [HttpGet]
-        public IActionResult OfficeType()
+        public IActionResult OfficeType(int? page)
         {
             using (var db = new FTSContext())
             {
                 OfficeAdminOfficeTypeViewModel officeAdmin = new OfficeAdminOfficeTypeViewModel();
-                var officeType = db.OfficeTypes.Where(x => x.IsDeleted != true).ToList();
+                //var officeType = db.OfficeTypes.Where(x => x.IsDeleted != true).ToList();
+
+                var officeType = db.OfficeTypes.Where(x => x.IsDeleted != true).ToPagedList(page ?? 1, 1);
                 officeAdmin.officeTypes = officeType;
                 return View(officeAdmin);
             }
